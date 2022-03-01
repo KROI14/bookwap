@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back_edit_text">
+
+        <EditText
+            android:id="@+id/edit_bookTitle"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_edit_text"
+            android:drawableLeft="@drawable/ic_booktitle"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:hint="Book Title"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnClearTitle"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="X"
+            android:layout_gravity="right"
+            android:background="#00000000"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back_edit_text">
+
+        <EditText
+            android:id="@+id/edit_author"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_edit_text"
+            android:drawableLeft="@drawable/ic_author"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:hint="Author"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnClearAuthor"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="X"
+            android:layout_gravity="right"
+            android:background="#00000000"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back_edit_text">
+
+        <EditText
+            android:id="@+id/edit_yrPub"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_edit_text"
+            android:drawableLeft="@drawable/ic_year"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:hint="Year Published"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnClearYrPub"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="X"
+            android:layout_gravity="right"
+            android:background="#00000000"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/back_button"
+        android:drawableLeft="@drawable/ic_search_menu"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:text="Search"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:divider="#00000000"
+            android:dividerHeight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!--Default theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarColor">#00B3FA</item>
+        <item name="textColor">#252525</item>
+        <item name="backgroundColor">#ECECEC</item>
+        <item name="cardViewBackground">#fff</item>
+        <item name="borderColor">#00B3FA</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#252424</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#8B8B8B</item>
+        <item name="toolbarColor">#292828</item>
+        <item name="textColor">#fff</item>
+        <item name="backgroundColor">#181818</item>
+        <item name="cardViewBackground">#292828</item>
+        <item name="borderColor">#00B3FA</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

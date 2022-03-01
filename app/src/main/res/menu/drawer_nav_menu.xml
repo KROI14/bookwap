@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_top1"
+        android:checkableBehavior="single">
+        <item android:enabled="false"
+            android:title=" " />
+
+        <item android:enabled="false"
+            android:title=" " />
+
+        <item android:enabled="false"
+            android:title=" " />
+
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/ic_search_navigation"/>
+    </group>
+
+    <item android:title="Dewey Decimal Classification">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_gen"
+                    android:icon="@drawable/ic_compsci"
+                    android:title="000 - General Works" />
+
+                <item
+                    android:id="@+id/nav_philo"
+                    android:icon="@drawable/ic_philosophy"
+                    android:title="100 - Philosophy" />
+
+                <item
+                    android:id="@+id/nav_religion"
+                    android:icon="@drawable/ic_religion"
+                    android:title="200 - Religion" />
+
+                <item
+                    android:id="@+id/nav_socScie"
+                    android:icon="@drawable/ic_socialscience"
+                    android:title="300 - Social Sciences" />
+
+                <item
+                    android:id="@+id/nav_language"
+                    android:icon="@drawable/ic_language"
+                    android:title="400 – Language" />
+
+                <item
+                    android:id="@+id/nav_pureScience"
+                    android:icon="@drawable/ic_purescience"
+                    android:title="500 - Pure Science" />
+
+                <item
+                    android:id="@+id/nav_tech"
+                    android:icon="@drawable/ic_technology"
+                    android:title="600 - Technology" />
+
+                <item
+                    android:id="@+id/nav_arts"
+                    android:icon="@drawable/ic_arts"
+                    android:title="700 – Arts &amp; Recreation" />
+
+                <item
+                    android:id="@+id/nav_literature"
+                    android:icon="@drawable/ic_literature"
+                    android:title="800 - Literature" />
+
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_geography"
+                    android:title="900 – History &amp; Geography" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_borrow"
+            android:title="Borrowed Books"
+            android:icon="@drawable/ic_borrow"/>
+
+        <item
+            android:id="@+id/nav_logs"
+            android:title="Activity Logs"
+            android:icon="@drawable/ic_logs"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="settings"
+            android:icon="@drawable/ic_settings"/>
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+</menu>

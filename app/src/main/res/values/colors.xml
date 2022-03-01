@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01B5FF</color>
+    <color name="colorPrimaryDark">#0395CE</color>
+    <color name="colorAccent">#00B3FA</color>
+    <color name="resultQRStatusBar">#000</color>
+</resources>
